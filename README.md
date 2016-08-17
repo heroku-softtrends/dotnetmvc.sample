@@ -5,8 +5,7 @@ This uses the .Net Core Buildpack provided by Softtends<br>
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 
 You've created a new ASP.NET Core MVC project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
-<br/>
-<br/>
+
 ## You need to make the following changes in your project.json of it to deploy on Heroku
 *   Add a new property called "outputName": "Your_ProjectName" in buildOptions  
 *   Remove scripts section. It has prepublish and postpublish actions which are not needed
