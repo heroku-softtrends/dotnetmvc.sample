@@ -1,16 +1,16 @@
-# Welcome to ASP.NET Core
+# ASP.NET Core MVC Sample app for Heroku using .Net Core Buildpack
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 
-You've created a new ASP.NET Core project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
+You've created a new ASP.NET Core MVC project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
 <br/>
 <br/>
-## The following changes, You must need to do in project.json of your project before deploying on Heroku
-*   Add new property called "outputName": "Your_ProjectName" in buildOptions  
-*   Remove scripts section. It has prepublish and postpublish actions. These are not needed
+## You need to make the following changes in your project.json of it to deploy on Heroku
+*   Add a new property called "outputName": "Your_ProjectName" in buildOptions  
+*   Remove scripts section. It has prepublish and postpublish actions which are not needed
 <br/>
 <br/>
-You can deploy this mvc website on Heroku server by clicking below button
+You can deploy this ASP.Net MVC website on Heroku server by clicking below button
 <br/>
 <br/>
 <a href="https://heroku.com/deploy?template=https://github.com/heroku-softtrends/dotnetmvc.sample/tree/master">
