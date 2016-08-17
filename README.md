@@ -6,7 +6,7 @@ We've made some big updates in this release, so it’s **important** that you sp
 
 You've created a new ASP.NET Core MVC project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
 
-## You need to make the following changes in your project.json of it to deploy on Heroku
+You need to make the following changes in your project.json to deploy on Heroku
 *   Add a new property called "outputName": "Your_ProjectName" in buildOptions  
 *   Remove scripts section. It has prepublish and postpublish actions which are not needed
 <br/>
