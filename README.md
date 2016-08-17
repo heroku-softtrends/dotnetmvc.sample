@@ -1,4 +1,6 @@
-# ASP.NET Core MVC Sample app for Heroku using .Net Core Buildpack
+# ASP.NET Core MVC Sample app for Heroku
+
+This uses the .Net Core Buildpack provided by Softtends<br><br>
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 
