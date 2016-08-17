@@ -6,7 +6,7 @@ You've created a new ASP.NET Core project. [Learn what's new](https://go.microso
 <br/>
 <br/>
 ## The following changes, You must need to do in project.json of your project before deploying on Heroku
-*   Add new property called "outputName": "<Your_ProjectName>" in buildOptions  
+*   Add new property called "outputName": "Your_ProjectName" in buildOptions  
 *   Remove scripts section. It has prepublish and postpublish actions. These are not needed
 <br/>
 <br/>
