@@ -83,7 +83,7 @@
     "debugType": "portable",
     "emitEntryPoint": true,
     "preserveCompilationContext": true,
-    "outputName": "dotnetmvc.sample"
+    "outputName": "dotnetmvc"
   },
 
   "runtimeOptions": {
