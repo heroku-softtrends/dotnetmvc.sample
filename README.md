@@ -6,7 +6,23 @@ We've made some big updates in this release, so it’s **important** that you sp
 
 You've created a new ASP.NET Core MVC project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
 
-You need to make the following changes in your project.json to deploy on Heroku
+You need to make the following changes in your Program.cs and project.json to deploy on Heroku
+**Program.cs**
+*   Add UseUrls method and pass args[0] as parameter to start your app. Because Heroku web dyno will start with dynamic port after sucessful deployment. We need to use the same port in code behind also then only your app will start and listen on that port else dotnet runtime will set default port 5000. Thereby we pass port number as parameter with url in Procfile 
+    public static void Main(string[] args)
+    {
+            var host = new WebHostBuilder()
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseIISIntegration()
+                .UseStartup<Startup>()
+                **.UseUrls(args[0])**
+                .Build();
+
+            host.Run();
+    }
+    
+**project.json**
 *   Add a new property called "outputName": "Your_ProjectName" in buildOptions  
 *   Remove scripts section. It has prepublish and postpublish actions which are not needed
 <br/>
