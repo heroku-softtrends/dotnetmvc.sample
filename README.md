@@ -12,8 +12,8 @@ You need to make the following changes in your Program.cs and project.json to de
 <br/>
 *   Add UseUrls method and pass args[0] as parameter to start your app. Because Heroku web dyno will start with dynamic port after sucessful deployment. We need to use the same port in code behind also then only your app will start and listen on that port else dotnet runtime will set default port 5000. Thereby we pass port number as parameter with url in Procfile
 <br/>
-    public static void Main(string[] args
-    {
+public static void Main(string[] args
+{<br/>
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
@@ -23,8 +23,7 @@ You need to make the following changes in your Program.cs and project.json to de
                 .Build();
 
             host.Run();
-    }
-<br/>
+}<br/>
 **project.json**
 <br/>
 *   Add a new property called "outputName": "Your_ProjectName" in buildOptions  
