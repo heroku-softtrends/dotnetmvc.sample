@@ -1,4 +1,4 @@
-# ASP.NET Core MVC Sample app for Heroku
+# .NET Core Buildpack for Heroku (Heroku Button)
 
 This uses the .Net Core Buildpack provided by Softtends<br>
 
