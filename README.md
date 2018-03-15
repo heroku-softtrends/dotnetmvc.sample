@@ -71,3 +71,4 @@ You can deploy this ASP.Net MVC website on Heroku server by clicking below butto
 *   [Publish to Microsoft Azure Web Apps](https://go.microsoft.com/fwlink/?LinkID=398609)
 
 We would love to hear your [feedback](https://go.microsoft.com/fwlink/?LinkId=518015)
+"# sample.dotnetcore.main" 
