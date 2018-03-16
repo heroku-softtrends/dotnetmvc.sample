@@ -1,7 +1,7 @@
 # .NET Core Buildpack with Heroku Support 
 ## (Heroku Button with ASP.NET Core MVC Sample)
 
-This uses the .Net Core Buildpack provided by Softtends<br>
+This uses the .Net Core Buildpack provided by Softtrends<br>
 
 We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
 
